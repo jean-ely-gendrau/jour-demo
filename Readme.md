@@ -65,3 +65,5 @@ flowchart TD
 - API Fetch
 - Promises & async/await
 - JSONPlaceholder API
+
+[MDN-Promise-All](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve)

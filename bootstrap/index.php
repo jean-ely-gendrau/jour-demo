@@ -36,38 +36,49 @@
         </nav>
     </header>
     <main class="container-fluid">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="https://placehold.co/400x200" class="d-block w-100 h-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://placehold.co/300x200" class="d-block w-100 h-75" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="https://placehold.co/200x200" class="d-block w-100 h-75" alt="...">
+                    </div>
+                </div>
+        </div>
         <h1>Bonjour Bootstrap !</h1>
         <p>Mon premier site avec Bootstrap</p>
         <button class="btn btn-primary">Mon bouton</button>
 
     <section class="row gap-1 m-2">
 
-        <article class="col-5" style="background-color: lightblue;">
-            Colonne 1 (6 colonnes)
-        </article>
-
-        <article class="col-5" style="background-color: lightcoral;">
-            Colonne 2 (6 colonnes)
-        </article>
-        
-        <article class="row">
-            <div class="col-8 bg-info">
-                Colonne principale (8 colonnes)
+        <article class="row gap-3">
+          <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-            <div class="col-4 bg-primary">
-                Sidebar (4 colonnes)
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
-        </article>
-
-        <article class="row">
-            <div class="col-12 col-md-6 col-lg-4 bg-info border border-1 border-dark">
-                Carte 1
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 bg-secondary">
-                Carte 2
-            </div>
-            <div class="col-12 col-md-6 col-lg-4 bg-dark">
-                Carte 3
+            <div class="card" style="width: 18rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </article>
 

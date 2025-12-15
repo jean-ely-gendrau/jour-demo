@@ -33,6 +33,18 @@
             </div>
         </article>
 
+        <article class="row">
+            <div class="col-12 col-md-6 col-lg-4 bg-info border border-1 border-dark">
+                Carte 1
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 bg-secondary">
+                Carte 2
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 bg-dark">
+                Carte 3
+            </div>
+        </article>
+
     </section>
 
     </main>

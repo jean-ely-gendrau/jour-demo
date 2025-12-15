@@ -6,7 +6,7 @@
     <title>Document</title>
 
      <!-- CSS Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="./assets/bootstrap-5.3.8/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 <body>
     <header>
@@ -39,15 +39,23 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                     <div class="carousel-item active">
-                    <img src="https://placehold.co/400x200" class="d-block w-100 h-75" alt="...">
+                    <img src="https://placehold.co/450x300" class="d-block w-75" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="https://placehold.co/300x200" class="d-block w-100 h-75" alt="...">
+                    <img src="https://placehold.co/300x200" class="d-block w-75" alt="...">
                     </div>
                     <div class="carousel-item">
-                    <img src="https://placehold.co/200x200" class="d-block w-100 h-75" alt="...">
+                    <img src="https://placehold.co/150x100" class="d-block w-75" alt="...">
                     </div>
                 </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
         </div>
         <h1>Bonjour Bootstrap !</h1>
         <p>Mon premier site avec Bootstrap</p>
@@ -98,6 +106,6 @@
     </footer>
 
 <!-- Link scrip bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="./assets/bootstrap-5.3.8/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>

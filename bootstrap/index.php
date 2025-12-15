@@ -24,6 +24,15 @@
             Colonne 2 (6 colonnes)
         </article>
         
+        <article class="row">
+            <div class="col-8 bg-info">
+                Colonne principale (8 colonnes)
+            </div>
+            <div class="col-4 bg-primary">
+                Sidebar (4 colonnes)
+            </div>
+        </article>
+
     </section>
 
     </main>
